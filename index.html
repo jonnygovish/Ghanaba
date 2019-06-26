@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Akan Name</title>
+    <link rel="stylesheet" href="/assets/css/index.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class=" container d-flex h-100">
+        <div class = "row justify-content-center align-self-center w-100" >
+            <div class="card-wrapper">
+                <div class="card shado-lg  bg-white rounded">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <div class="logo">
+                                    <img src="assets/img/download.png" class="my-logo" alt="logo"/>
+                                </div>
+                                <div></div>
+                                <form onsubmit="akan(); return false;">
+                                        <div class = "form-group form-control-lg" >
+                                            <input type="text" class="form-control fontawesome" id="day" aria-describedby="nameHelp" placeholder="DD"/>
+                                        </div>
+                                        <div class = "form-group form-control-lg" >
+                                            <input type="text" class="form-control fontawesome" id="month" aria-describedby="nameHelp" placeholder="MM"  />
+                                        </div>
+                                        <div class = "form-group form-control-lg" >
+                                            <input type="text" class="form-control fontawesome" id="year" aria-describedby="nameHelp" placeholder="YYYY"  />
+                                        </div>
+                                        <div class="form-check">
+                                            <input type="checkbox" class="gender" id="male" value="Male">
+                                            <span class = "checkmark"> </span>
+                                            <label class="" >Male</label>
+                                            
+                                        </div>
+                                        <div class="form-check">
+                                            <input type="checkbox" class="gender" id="female" value="Female">
+                                            <span class = "checkmark" > </span>
+                                            <label class="form-check-label" >Female</label>
+                                        </div> 
+                                        <br></br>
+                                        
+                                        <button type="submit" class="btn btn-success big-btn form-control">Submit</button>
+                                        <hr></hr>
+                                        <h4 class="instructions justify-content-center align-self-center text-center w-100"> Please input your birthday to find out what your akan name would be</h4>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-6 d-fle left ">
+                                
+                                <div class="overlay d-flex">
+                                    <h3 id="p1" class=" card-body justify-content-center align-self-center text-center w-100"></h3>
+                                </div>
+
+                                <!-- <p>kajhskajhsk</p> -->
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/assets/js/scripts.js"></script>
+</body>
+</html>
